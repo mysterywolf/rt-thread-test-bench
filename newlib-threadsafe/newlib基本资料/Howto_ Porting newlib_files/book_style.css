@@ -1,0 +1,460 @@
+/* We match the Embecosm main page, with a white 1024px page surrounded by
+   whitesmoke. Within the white page, there is a 10px padding. */
+
+body {
+    background : whitesmoke;
+    color : #000000;
+    font : medium 'Luxi Serif','Bitstream Vera Serif','Georgia',serif;
+    padding : 0px;
+    margin : 0 auto;
+    max-width : 1024px;
+    min-height : 100%;
+  }
+
+/* Hyperlinks are just shown in Embecosm blue or dark red if visited. Underline
+   is so clunk, and reserved for hoverring. */
+
+
+a:link {
+    color : #25217f;
+  }
+
+
+a:visited {
+    color : #25217f;
+  }
+
+
+a:hover {
+    text-decoration : underline;
+  }
+
+div.embnavheader a:link {
+    color : white;
+  }
+
+
+div.embnavheader a:visited {
+    color : white;
+  }
+
+
+div.embnavheader a:hover {
+    color : white;
+  }
+
+a {
+    text-decoration : none;
+    border-width : 0;
+  }
+
+/* Make sure everything has white as a background */
+
+div {
+    background : white;
+    border-color : white ;
+    border-style : dashed ;
+    border-width : 1px ;
+  }
+
+/* Make all the header use a bold sans-serif font in Embecosm blue. */
+
+div.caution th {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+div.important th {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+div.note th {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+div.tip th {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+div.warning th {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+div.toc p {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+h1 {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+    margin-bottom : 0pt;
+  }
+
+
+h2 {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+    margin-bottom : 0pt;
+  }
+
+
+h3 {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+    margin-bottom : 0pt;
+  }
+
+h4 {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+    margin-bottom : 0pt;
+  }
+
+code {
+    font-weight : bold;
+  }
+
+
+/* For the Embecosm header we also specify the 10px padding */
+
+div.emblogoheader table {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+    background : white;
+    padding-top : 0px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-bottom : 0px;
+  }
+
+th.emblogo {
+    padding-top : 10px;
+    padding-left : 10px;
+    padding-right : 0px;
+    padding-bottom : 10px;
+    min-height : 66px;
+    min-width : 154px;
+    line-height : 0px;
+    vertical-align : bottom;
+  }
+
+th.embstrapline {
+    font : bold large 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    padding-left : 0px;
+    padding-right : 40px;
+    padding-top : 0px;
+    padding-bottom : 10px;
+    margin : 0;
+    color : #25217f;
+    text-align : right;
+    vertical-align : bottom;
+    width : 870px;
+  }
+
+div.embnavheader table {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+    background : white;
+    padding-top : 0px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-bottom : 0px;
+  }
+
+div.embnavheader td {
+    padding-top : 10px;
+    padding-left : 40px;
+    padding-right : 40px;
+    padding-bottom : 10px;
+  }
+
+div.embnavheader img {
+    border-width : 0;
+  }
+
+img.embnoborder {
+    border-color : white;
+    margin-right : 20px
+  }
+
+td.embstrapline {
+    font : bold large 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    padding : 0px;
+    margin : 0;
+    color : #25217f;
+    text-align : right;
+    vertical-align : bottom;
+    width : 870px;
+  }
+
+/* For the footer we also specify the 10px padding */
+
+div.navfooter table {
+    background : white;
+    padding-top : 10px;
+    padding-left : 0px;
+    padding-right : 0px;
+  }
+
+div.navfooter tr.navfooter {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    color : #25217f;
+  }
+
+div.navfooter tr.embcopyfooter {
+    font-size : small;
+  }
+
+div.navfooter td {
+    background : white;
+    padding-top : 0px;
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+div.navfooter img {
+    border-width : 0;
+  }
+
+/* Add the 10px left and right padding to all the body entities that need it */
+
+div.titlepage h1,h2,h3,h4,h5 {
+    padding-left :  40px;
+    padding-right : 40px;
+  }
+
+div.titlepage h1.title {
+    padding-left :  40px;
+    padding-right : 40px;
+    margin-bottom : 5px;
+  }
+
+div.titlepage h2.subtitle {
+    padding-left :  40px;
+    padding-right : 40px;
+    margin-top :     0px;
+    margin-bottom : 60px;
+  }
+
+div.titlepage h3.author {
+    color : #000000;
+    font : medium 'Luxi Serif','Bitstream Vera Serif','Georgia',serif;
+    padding-left :  40px;
+    padding-right : 40px;
+    margin-top :     0px;
+    margin-bottom :  0ex;
+  }
+
+div.titlepage h3.corpauthor {
+    color : #000000;
+    font : medium 'Luxi Serif','Bitstream Vera Serif','Georgia',serif;
+    padding-left :  40px;
+    padding-right : 40px;
+    margin-top :     0px;
+    margin-bottom : 10ex;
+  }
+
+div.titlepage h3.subtitle i {
+    font-style : normal;
+  }
+
+div.titlepage p.pubdate {
+    padding-left : 40px;
+    padding-right : 40px;
+    margin-bottom : 2ex;
+  }
+
+div.titlepage p.copyright {
+    padding-left : 40px;
+    padding-right : 40px;
+    margin-bottom : 1ex;
+  }
+
+div.titlepage p {
+    padding-left :  40px;
+    padding-right : 40px;
+    margin : 0pt;
+  }
+
+div.orderedlist ol {
+    padding-left :  40px;
+    padding-right : 40px;
+    margin-left : 40px;
+  }
+
+div.itemizedlist ul {
+    padding-left :  40px;
+    padding-right : 40px;
+    margin-left : 40px;
+  }
+
+table.legalnotice_link {
+    padding-left : inherit;
+    padding-right : 40px;
+  }
+
+td.legalnotice_link {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+div.appendix p {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+
+div.chapter p {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+
+div.sect1 p {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+
+div.sect2 p {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+
+div.sect3 p, table {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+
+div.informalexample {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+div.informalfigure  {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+div.bibliomixed  {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+div.toc p,dl {
+    padding-left : 40px;
+    padding-right : 40px;
+  }
+
+div.table table {
+    margin-left : 40px;
+    margin-right : 40px;
+    padding : 0;
+  }
+
+div.table-contents p {
+    padding-left : 5px;
+    padding-right : 5px;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    margin : 0;
+  }
+
+div.informaltable table {
+    margin-left : 40px;
+    margin-right : 40px;
+    padding : 0;
+  }
+
+div.informaltable p {
+    padding-left : 5px;
+    padding-right : 5px;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    margin : 0;
+  }
+
+/* Make program listings stand out */
+
+div.literallayout {
+    padding-top : 10px;
+    padding-left : 40px;
+    padding-right : 40px;
+    padding-bottom : 0px;
+    background-color: whitesmoke ;
+    border: thin dashed black ;
+    margin-left : 40px;
+    margin-right : 40px;
+    font-weight : bold;
+  }
+
+pre.programlisting {
+    padding-top : 10px;
+    padding-left : 40px;
+    padding-right : 40px;
+    padding-bottom : 0px;
+    background-color: whitesmoke ;
+    border: thin dashed black ;
+    margin-left : 40px;
+    margin-right : 40px;
+    font-weight : bold;
+  }
+
+pre.screen {
+    padding-top : 10px;
+    padding-left : 40px;
+    padding-right : 40px;
+    padding-bottom : 0px;
+    background-color: whitesmoke ;
+    border: thin dashed black ;
+    margin-left : 40px;
+    margin-right : 40px;
+    font-weight : bold;
+  }
+
+/* Legal notice stuff */
+
+div.emblegalbody {
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 40px;
+    padding-right: 10px;
+  }
+
+div.emblegalbody b {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    font-weight : bold;
+    font-size : large;
+    color : #25217f;
+  }
+
+div.emblegalbody em {
+    font-family : 'Luxi Sans','Bitstream Vera Sans','Trebuchet MS','sans-serif';
+    color : #25217f;
+    font-weight : bold;
+    font-style  : normal;
+  }
+
+div.emblegalbody p {
+    margin-bottom: 1ex;
+  }
