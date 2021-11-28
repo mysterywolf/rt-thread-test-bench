@@ -1,0 +1,1 @@
+https://community.arm.com/support-forums/f/keil-forum/31706/hard-fault-at-misaligned-memcpy-memset   keil也有类似问题？
